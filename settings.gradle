@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+    }
+}
+
+rootProject.name = 'jarvis'
+
+include 'jarvis-plugins'
+include 'jarvis-simples:jarvis-plugins-simple'

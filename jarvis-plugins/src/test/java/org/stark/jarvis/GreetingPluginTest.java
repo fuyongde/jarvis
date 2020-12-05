@@ -6,17 +6,15 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * A simple unit test for the 'org.stark.jarvis.greeting' plugin.
+ * A simple unit test for the 'org.stark.jarvis.plugins.greeting' plugin.
  */
 public class GreetingPluginTest {
 
     @Test
     public void pluginRegistersATask() {
-        // Create a test project and apply the plugin
         Project project = ProjectBuilder.builder().build();
-        project.getPlugins().apply("org.stark.jarvis.greeting");
+        project.getPlugins().apply("org.stark.jarvis.plugins.greeting");
 
-        // Verify the result
-        assertNotNull(project.getTasks().findByName("greeting"));
+        assertNotNull(project.getTasks().findByName("hello"));
     }
 }

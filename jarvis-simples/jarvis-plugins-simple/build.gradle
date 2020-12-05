@@ -4,10 +4,6 @@ plugins {
     id 'org.stark.jarvis.plugins.greeting' version '0.0.1-SNAPSHOT'
 }
 
-repositories {
-    jcenter()
-}
-
 dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     testImplementation 'junit:junit:4.13'

@@ -1,0 +1,19 @@
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+}
+
+archivesBaseName = 'jarvis-plugins'
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+gradlePlugin {
+    plugins {
+        greeting {
+            id = 'org.stark.jarvis.plugins.greeting'
+            implementationClass = 'org.stark.jarvis.plugins.GreetingPlugin'
+        }
+    }
+}
