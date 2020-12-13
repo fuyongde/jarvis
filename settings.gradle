@@ -6,5 +6,7 @@ pluginManagement {
 
 rootProject.name = 'jarvis'
 
+include 'jarvis-mybatis-generator'
 include 'jarvis-plugins'
 include 'jarvis-simples:jarvis-plugins-simple'
+
