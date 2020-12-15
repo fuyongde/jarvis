@@ -12,5 +12,3 @@ dependencies {
 application {
     mainClassName = 'org.stark.jarvis.simples.plugins.App'
 }
-
-apply plugin: 'org.stark.jarvis.plugins.greeting'

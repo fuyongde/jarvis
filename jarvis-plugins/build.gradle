@@ -3,6 +3,9 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'org.stark.jarvis'
+version = '0.0.1-SNAPSHOT'
+
 archivesBaseName = 'jarvis-plugins'
 
 dependencies {

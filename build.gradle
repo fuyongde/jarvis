@@ -1,7 +1,6 @@
 // 所有子模块通用的配置
 allprojects {
-    group 'org.stark.jarvis'
-
+    group = 'org.stark.jarvis'
     version = '0.0.1-SNAPSHOT'
 
     repositories {
