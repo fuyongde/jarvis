@@ -6,7 +6,9 @@ plugins {
 group = 'org.stark.jarvis'
 version = '0.0.1-SNAPSHOT'
 
-archivesBaseName = 'jarvis-plugins'
+repositories {
+    mavenLocal()
+}
 
 dependencies {
     testImplementation 'junit:junit:4.13'
