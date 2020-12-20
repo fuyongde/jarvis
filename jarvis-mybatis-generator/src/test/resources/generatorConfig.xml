@@ -4,13 +4,12 @@
 <generatorConfiguration>
     <context id="dsql" targetRuntime="MyBatis3Simple">
 
-        <commentGenerator type="org.stark.jarvis.mybatis.generator.JarvisGenerator"/>
+        <commentGenerator type="org.stark.jarvis.mybatis.generator.JarvisCommentGenerator"/>
 
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost/quickstart?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=true"
                         userId="root"
                         password="fuyongde"/>
-
 
         <javaTypeResolver>
             <property name="forceBigDecimals" value="true"/>
